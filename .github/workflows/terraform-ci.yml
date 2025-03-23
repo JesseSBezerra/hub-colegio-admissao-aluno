@@ -22,9 +22,9 @@ jobs:
       - name: Ler projeto.yml
         id: check
         run: |
-          flag=$(yq '.destroy' projeto.yml)
-          account=$(yq '.account' projeto.yml)
-          project_name=$(yq '.project-name' projeto.yml)
+          flag=$(yq eval '.destroy' projeto.yml)
+          account=$(yq eval '.account' projeto.yml)
+          project_name=$(yq eval '.["project-name"]' projeto.yml)
           echo "destroy_flag=$flag" >> $GITHUB_OUTPUT
           echo "account=$account" >> $GITHUB_OUTPUT
           echo "project_name=$project_name" >> $GITHUB_OUTPUT
