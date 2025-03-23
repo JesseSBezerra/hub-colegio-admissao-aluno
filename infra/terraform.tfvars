@@ -1,0 +1,11 @@
+region         = "sa-east-1"
+app_name       = "hub-colegio-admissao-aluno"
+ecr_image_url  = "397685870114.dkr.ecr.sa-east-1.amazonaws.com/hub-colegio-admissao-aluno:latest"
+container_port = 1016
+cidr_vpc       = "10.0.0.0/16"
+cidr_subnet_1  = "10.0.0.0/24"
+cidr_subnet_2  = "10.0.1.0/24"
+log_retention_days = 1
+cpu            = 512
+memory         = 1024
+desired_count  = 1
