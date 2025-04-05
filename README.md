@@ -2,6 +2,12 @@
 
 Projeto desenvolvido com arquitetura **hexagonal**, utilizando **Spring Boot**, **Apache Kafka**, **Avro**, **MongoDB**, e **DynamoDB** para lidar com o fluxo de cadastro e publicação de alunos em um hub de integração escolar.
 
+## 🌐 Visão de Sistemas Distribuídos
+
+Abaixo, temos uma representação visual do ecossistema da aplicação, com foco em mensageria, persistência e integração entre os módulos:
+
+![Visão do Projeto](docs/projeto.png)
+
 ---
 
 ## 🚀 Objetivo
