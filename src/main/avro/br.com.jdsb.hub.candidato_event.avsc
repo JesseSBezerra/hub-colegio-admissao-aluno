@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "CandidatoEvent",
+  "namespace": "br.com.jdsb.hub.avro",
+  "fields": [
+    { "name": "nome",              "type": "string" },
+    { "name": "dataNascimento",    "type": "string" },
+    { "name": "curso",             "type": "string" },
+    { "name": "valorMensalidade", "type": { "type": "string", "java-class": "java.math.BigDecimal"} },
+    { "name": "periodo",           "type": "string" },
+    { "name": "turno",             "type": "string" },
+    { "name": "cpf",               "type": "string" },
+    { "name": "codigoMatricula",   "type": "string" }
+  ]
+}
