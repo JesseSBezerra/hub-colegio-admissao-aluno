@@ -7,8 +7,6 @@ import br.com.jdsb.hubcolegioadmissaoaluno.domain.ports.out.PublicadorKafkaPort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.UUID;
-
 @RequiredArgsConstructor
 @Service
 public class CadastrarCandidatoService implements CandidatoUseCase {
