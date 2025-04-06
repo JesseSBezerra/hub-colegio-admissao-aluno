@@ -1,6 +1,6 @@
-package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.entity;
+package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.entity;
 
-import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.converter.UUIDConverter;
+import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.converter.UUIDConverter;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;

@@ -6,14 +6,13 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig;
 import lombok.extern.log4j.Log4j2;
 import org.socialsignin.spring.data.dynamodb.repository.config.EnableDynamoDBRepositories;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
 @Log4j2
-@EnableDynamoDBRepositories(basePackages = "br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.repository")
+@EnableDynamoDBRepositories(basePackages = "br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.repository")
 public class DynamoDBConfig {
 
     @Bean

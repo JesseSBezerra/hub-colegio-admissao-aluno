@@ -1,7 +1,7 @@
-package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.mapper;
+package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.mapper;
 
 import br.com.jdsb.hubcolegioadmissaoaluno.domain.model.Candidato;
-import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.entity.CandidatoDocument;
+import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.entity.CandidatoDocument;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,6 +1,6 @@
-package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.repository;
+package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.repository;
 
-import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.entity.CandidatoDocument;
+import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.entity.CandidatoDocument;
 import org.socialsignin.spring.data.dynamodb.repository.EnableScan;
 import org.springframework.data.repository.CrudRepository;
 

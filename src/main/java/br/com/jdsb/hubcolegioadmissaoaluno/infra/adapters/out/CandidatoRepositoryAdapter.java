@@ -3,9 +3,9 @@ package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out;
 
 import br.com.jdsb.hubcolegioadmissaoaluno.domain.model.Candidato;
 import br.com.jdsb.hubcolegioadmissaoaluno.domain.ports.out.CandidatoRepositoryPort;
-import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.entity.CandidatoDocument;
-import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.mapper.CandidatoDocumentMapper;
-import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.repository.CandidatoDocumentRepository;
+import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.entity.CandidatoDocument;
+import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.mapper.CandidatoDocumentMapper;
+import br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.repository.CandidatoDocumentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

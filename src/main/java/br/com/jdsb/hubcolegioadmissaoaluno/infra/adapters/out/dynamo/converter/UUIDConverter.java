@@ -1,4 +1,4 @@
-package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.mongo.converter;
+package br.com.jdsb.hubcolegioadmissaoaluno.infra.adapters.out.dynamo.converter;
 
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTypeConverter;
