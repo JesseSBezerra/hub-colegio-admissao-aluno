@@ -88,6 +88,7 @@ jobs:
           docker build -t ${{ steps.login-ecr.outputs.registry }}/${{ needs.decidir.outputs.project_name }}:${{ steps.build_tag.outputs.image_tag }} .
 
       - name: Push da imagem para o ECR
+        if: needs.decidir.outputs.destroy_flag == 'false' || needs.decidir.outputs.destroy_flag == ''
         run: |
           docker push ${{ steps.login-ecr.outputs.registry }}/${{ needs.decidir.outputs.project_name }}:${{ steps.build_tag.outputs.image_tag }}
 
