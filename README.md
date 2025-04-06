@@ -29,7 +29,6 @@ Este projeto segue o padrão **Ports & Adapters (Arquitetura Hexagonal)**, promo
 - Java 17
 - Spring Boot 3
 - Apache Kafka + Avro (Schema Registry)
-- MongoDB (Spring Data)
 - DynamoDB (via spring-data-dynamodb)
 - Maven
 - Docker / Docker Compose
@@ -85,6 +84,23 @@ docker-compose up -d
 Sinta-se à vontade para abrir issues, PRs e sugerir melhorias!
 
 ---
+
+## 📦 Deploy na AWS
+
+ECR criado com Terraform para provisionar o repositório de imagens.
+![Visão do Projeto](docs/ecr_criado.png)
+
+Cluster ecs criado com Terraform para provisionar o cluster ecs e os recursos necessários.
+![Visão do Projeto](docs/cluster_criado.png)
+
+Logs Group do ECS criado com Terraform para provisionar o cluster ecs e os recursos necessários.
+![Visão do Projeto](docs/log_group_criado.png)
+
+DynamoDB criado com Terraform para provisionar o banco de dados.
+![Visão do Projeto](docs/dynamo_criado.png)
+
+
+
 
 ## 👨‍💻 Autor
 
